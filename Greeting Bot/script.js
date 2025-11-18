@@ -15,5 +15,7 @@ console.log(botLocationSentence);
 
 bot = "professorBot";
 
-let nicknameIntroduction = "My nickname is " + bot + ".";
+const nicknameIntroduction = "My nickname is " + bot + ".";
 console.log(nicknameIntroduction);
+
+bot = "awesomeTeacherBot";
