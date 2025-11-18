@@ -23,4 +23,9 @@ bot = "awesomeTeacherBot";
 const newNicknameGreeting = "I love my nickname but I wish people would call me " + bot + ".";
 console.log(newNicknameGreeting);
 
-let favoriteSubject = "Computer Science";
+const favoriteSubject = "Computer Science";
+
+bot = "favoriteSubjectSentence";
+
+const favoriteSubjectSentence = "My favorite subject is " + favoriteSubject + ".";
+console.log(favoriteSubjectSentence);
