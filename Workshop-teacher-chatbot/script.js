@@ -9,4 +9,7 @@ const subject = "JavaScript";
 const topic = "strings";
 
 const sentence = `Today, you will learn about ${topic} in ${subject}.`;
-console.log(sentence)
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`
+console.log(strLengthIntro);
