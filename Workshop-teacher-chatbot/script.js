@@ -15,3 +15,6 @@ const strLengthIntro = `Here is an example of using the length property on the w
 console.log(strLengthIntro);
 console.log(subject.length);
 
+const topic = "strings";
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
