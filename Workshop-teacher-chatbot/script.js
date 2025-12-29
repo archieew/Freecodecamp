@@ -14,8 +14,7 @@ console.log(sentence);
 const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
 console.log(strLengthIntro);
 
-const strLength = subject.length;
-console.log(strLength);
+console.log(subject.length);
 
 console.log(`Here is an example of using the length property on the word ${topic}.`);
 console.log(topic.length);
@@ -34,4 +33,6 @@ console.log(lastCharacter);
 
 const learningIsFunSentence = "Learning is fun.";
 
-console.log("Here are examples of finding the positions of substrings in the sentence.")
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+
+ console.log( learningIsFunSentence.indexOf("Learning"));
