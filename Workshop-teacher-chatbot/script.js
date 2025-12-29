@@ -25,3 +25,10 @@ console.log(subject[0]);
 
 console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
 console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun.";
